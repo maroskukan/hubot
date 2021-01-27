@@ -2,8 +2,8 @@
   "name": "Hubot",
   "version": "0.0.0",
   "private": true,
-  "author": "Bot Wrangler <bw@example.com>",
-  "description": "Delightfully aware robutt--adapter=campfire",
+  "author": "Mkhubot Dev <mkhubot-dev@protonmail.com>",
+  "description": "Delightfully aware robutt",
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
