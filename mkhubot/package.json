@@ -1,9 +1,9 @@
 {
-  "name": "Hubot",
+  "name": "mkhubot",
   "version": "0.0.0",
   "private": true,
-  "author": "Mkhubot Dev <mkhubot-dev@protonmail.com>",
-  "description": "Delightfully aware robutt",
+  "author": "mkhubot-dev@protonmail.com",
+  "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
@@ -16,7 +16,8 @@
     "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^1.0.0",
     "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.1"
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.9.0"
   },
   "engines": {
     "node": "0.10.x"
