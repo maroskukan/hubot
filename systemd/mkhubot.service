@@ -1,0 +1,21 @@
+[Unit]
+Description=MkHubot
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/vagrant
+User=vagrant
+
+Restart=always
+RestartSec=10
+StartLimitInterval=400
+StartLimitBurst=3
+
+Environment=HUBOT_SLACK_TOKEN=<token>
+
+ExecStart=/bin/bash -a -c 'cd /vagrant/mkhubot && ./bin/hubot --adapter slack > hubot.log 2>&1'
+
+[Install]
+WantedBy=multi-user.target
