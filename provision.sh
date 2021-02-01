@@ -11,3 +11,6 @@ command -v yo &>/dev/null || {
 }
 
 cp -R /vagrant/systemd/mkhubot.service /etc/systemd/system/mkhubot.service
+
+systemctl daemon-reload
+service mkhubot restart
